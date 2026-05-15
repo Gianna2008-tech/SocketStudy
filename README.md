@@ -55,6 +55,7 @@ Socket programming finds applications in various domains, including web developm
 
 ## Algorithm:
 ## Server Algorithm
+```
 Start the program.
 Create a socket using socket().
 Bind the socket to a specific IP address and port number using bind().
@@ -62,15 +63,16 @@ Listen for incoming client connections using listen().
 Accept the client connection using accept().
 Send a message to the client using send().
 Close the connection.
-
+```
 ## Client Algorithm
+```
 Start the program.
 Create a socket using socket().
 Connect to the server using the server IP address and port number with connect().
 Receive data from the server using recv().
 Display the received message.
 Close the connection.
-
+```
 ## PROGRAM:
 ## client
 
